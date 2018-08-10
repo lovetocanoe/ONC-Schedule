@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ONC Shift" max_length="40" name="x_35694_onc_schedu_onc_shift" type="collection">
+        <element label="Days per Week" max_length="40" name="days_per_week" type="integer"/>
+        <element label="Length (hours)" max_length="20" name="length_hours" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Shift Code" max_length="40" name="shift_code" type="string"/>
+        <element label="Shift End" max_length="40" name="shift_end" type="glide_time"/>
+        <element display="true" label="Shift Start" max_length="40" name="shift_start" type="glide_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    </element>
+</database>
