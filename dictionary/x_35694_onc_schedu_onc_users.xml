@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="ONC Users" max_length="40" name="x_35694_onc_schedu_onc_users" type="collection">
+    <element label="ONC Users Table" max_length="40" name="x_35694_onc_schedu_onc_users" type="collection">
         <element display="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Chosen Schedule" max_length="40" name="chosen_schedule" type="string"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
